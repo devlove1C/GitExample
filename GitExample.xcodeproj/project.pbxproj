@@ -15,6 +15,7 @@
 		9702761D20246848005EC0BA /* GitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9702761C20246848005EC0BA /* GitExampleTests.swift */; };
 		9702762820246848005EC0BA /* GitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9702762720246848005EC0BA /* GitExampleUITests.swift */; };
 		9702763620246EAA005EC0BA /* NextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9702763520246EAA005EC0BA /* NextVC.swift */; };
+		9702763820247560005EC0BA /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9702763720247560005EC0BA /* MapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9702762720246848005EC0BA /* GitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitExampleUITests.swift; sourceTree = "<group>"; };
 		9702762920246848005EC0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9702763520246EAA005EC0BA /* NextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextVC.swift; sourceTree = "<group>"; };
+		9702763720247560005EC0BA /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9702763520246EAA005EC0BA /* NextVC.swift */,
 				9702760920246848005EC0BA /* ViewController.swift */,
 				9702760B20246848005EC0BA /* Main.storyboard */,
+				9702763720247560005EC0BA /* MapVC.swift */,
 				9702760E20246848005EC0BA /* Assets.xcassets */,
 				9702761020246848005EC0BA /* LaunchScreen.storyboard */,
 				9702761320246848005EC0BA /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9702760A20246848005EC0BA /* ViewController.swift in Sources */,
+				9702763820247560005EC0BA /* MapVC.swift in Sources */,
 				9702760820246848005EC0BA /* AppDelegate.swift in Sources */,
 				9702763620246EAA005EC0BA /* NextVC.swift in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  NextVC.swift
+//  MapVC.swift
 //  GitExample
 //
 //  Created by Office Mac on 2/2/18.
@@ -8,14 +8,11 @@
 
 import UIKit
 
-class NextVC: UIViewController {
+class MapVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("In next view Controller")
-        
-        //
+
         // Do any additional setup after loading the view.
     }
 
@@ -27,10 +24,12 @@ class NextVC: UIViewController {
 
     /*
     // MARK: - Navigation
+
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
     */
+
 }
