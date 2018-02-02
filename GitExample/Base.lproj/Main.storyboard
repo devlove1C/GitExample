@@ -66,13 +66,37 @@
                     <view key="view" contentMode="scaleToFill" id="4p3-2Y-VB3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fKg-pz-EX1">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="JAk-zm-IED"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="olR-AO-PYM" id="r8Z-Ed-GDR"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fKg-pz-EX1" firstAttribute="top" secondItem="xRa-Ka-5wB" secondAttribute="top" id="4MX-Ce-pSm"/>
+                            <constraint firstAttribute="bottom" secondItem="fKg-pz-EX1" secondAttribute="bottom" id="LVf-mD-3FE"/>
+                            <constraint firstItem="fKg-pz-EX1" firstAttribute="leading" secondItem="xRa-Ka-5wB" secondAttribute="leading" id="Xkr-wt-gnO"/>
+                            <constraint firstItem="fKg-pz-EX1" firstAttribute="trailing" secondItem="xRa-Ka-5wB" secondAttribute="trailing" id="cMB-hx-oim"/>
+                            <constraint firstItem="xRa-Ka-5wB" firstAttribute="bottom" secondItem="fKg-pz-EX1" secondAttribute="bottom" id="f6F-Qm-ZZL"/>
+                            <constraint firstItem="fKg-pz-EX1" firstAttribute="leading" secondItem="xRa-Ka-5wB" secondAttribute="leading" id="lUO-72-KFE"/>
+                            <constraint firstItem="fKg-pz-EX1" firstAttribute="trailing" secondItem="xRa-Ka-5wB" secondAttribute="trailing" id="nYL-ra-rtY"/>
+                            <constraint firstItem="fKg-pz-EX1" firstAttribute="top" secondItem="xRa-Ka-5wB" secondAttribute="top" id="sPH-ec-5tK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="xRa-Ka-5wB"/>
                     </view>
+                    <connections>
+                        <outlet property="my_map" destination="fKg-pz-EX1" id="Dgw-le-W0g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rGe-3j-rbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="90" y="-7"/>
+            <point key="canvasLocation" x="88.799999999999997" y="-7.6461769115442282"/>
         </scene>
     </scenes>
 </document>
