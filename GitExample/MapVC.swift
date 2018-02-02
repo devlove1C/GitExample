@@ -12,7 +12,8 @@ class MapVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+     
+        print("In  Map viewController")
         // Do any additional setup after loading the view.
     }
 
